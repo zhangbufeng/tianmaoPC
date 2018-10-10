@@ -40,16 +40,16 @@ $(function(){
     })
     //轮播图
     var t=setInterval(move,2500);
-    var color2=['#EA0A02','#E8E8E8','#E9CDC1','#E8E8E8','#3E21D5','#0A78C5'];
+    var color2=['#EA0A02','#E8E8E8','#E9CDC1','#E8E8E8','#3E21D5','#0A78C5'];//最外层颜色变化
     var ban=$('.right .shops')
-    var line=$('.right .line li')
+    var line=$('.right .line li')//相当于btn
     var index=0
     function move(){
         index++
         if(index==ban.length){
             index=0;
         }
-        $('.category-con').css('background',color2[index])
+        $('.category-con').css('background',color2[index])//分开写每一层变化
         line.css('background','#000')
         line.eq(index).css('background','#fff')
         ban.css("opacity","0")

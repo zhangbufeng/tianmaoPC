@@ -10,7 +10,16 @@
     <script src="static/js/jquery-3.2.1.js"></script>
     <script src="static/js/index.js"></script>
     <link rel="stylesheet" href="static/css/index.css">
+    <link rel="stylesheet" href="static/css/demo.css">
 </head>
+<style>
+    .container{
+        height:329px;
+    }
+    div[class*=col]{
+
+    }
+</style>
 <body>
     <!--顶部导航栏开始-->
     <div class="site-nav">
@@ -172,9 +181,9 @@
                         <li><a href="" style="color:#ff0036">摄像头</a></li>
                         <li><a href="">客厅灯</a></li>
                         <li><a href="">口红</a></li>
-                        <li><a href="" style="color:#ff0036">手机</a></li>
-                        <li><a href="">运动鞋</a></li>
-                        <li><a href="" style="color:#ff0036">牛奶</a></li>
+                        <li class="box3"><a href="" style="color:#ff0036">手机</a></li>
+                        <li class="box3"><a href="">运动鞋</a></li>
+                        <li class="box3"><a href="" style="color:#ff0036">牛奶</a></li>
                     </ul>
                 </div>
             </div>
@@ -2086,6 +2095,35 @@
             </div>
         </div>
         <!-- 轮播图结束 -->
+        <div class="container">
+            <div class="row">
+                <div class="col-l-4 col-s-5">
+                    <a href="">
+                        <img src="static/img/tu1.webp" width="238px" height="269px">
+                    </a>
+                </div>
+                <div class="col-l-4 col-s-5">
+                    <a href="">
+                        <img src="static/img/tu2.webp" width="238px" height="269px">
+                    </a>
+                </div>
+                <div class="col-l-4 col-s-hide">
+                    <a href="">
+                        <img src="static/img/tu3.webp" width="238px" height="269px">
+                    </a>
+                </div>
+                <div class="col-l-4 col-s-5">
+                    <a href="">
+                        <img src="static/img/tu4.webp" width="238px" height="269px">
+                    </a>
+                </div>
+                <div class="col-l-4 col-s-5">
+                    <a href="">
+                        <img src="static/img/tu5.webp" width="238px" height="269px">
+                    </a>
+                </div>
+            </div>
+        </div>
         <div class="activity-bg">
             <div class="fight">
                 <div class="left">
@@ -2121,7 +2159,7 @@
             </div>
             <div class="brand-list">
                 <ul>
-                    <li class="brand-item">
+                    <li class="brand-item box1">
                         <div class="brand-img">
                             <img src="static/img/logo/logo1.webp" alt="">
                         </div>
@@ -2238,7 +2276,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="brand-item">
+                    <li class="brand-item box1">
                         <div class="brand-img">
                             <img src="static/img/logo/logo11.webp" alt="">
                         </div>
@@ -2251,7 +2289,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="brand-item">
+                    <li class="brand-item box1">
                         <div class="brand-img">
                             <img src="static/img/logo/logo12.webp" alt="">
                         </div>
@@ -2368,7 +2406,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="brand-item">
+                    <li class="brand-item box1">
                         <div class="brand-img">
                             <img src="static/img/logo/logo21.png" alt="" style="width:100px;height:50px">
                         </div>
@@ -2381,7 +2419,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="brand-item">
+                    <li class="brand-item box1">
                         <div class="brand-img">
                             <img src="static/img/logo/logo22.webp" alt="">
                         </div>
@@ -2589,7 +2627,7 @@
                                 <div class="floor-price">￥109</div>
                             </div>
                         </a>
-                        <a href="" class="grid">
+                        <a href="" class="grid box2">
                             <div class="floor-item-content-wrap">
                                 <div class="floor-item-tag"></div>
                                 <img src="static/img/floor1/floor6.jpg" alt="" class="floor-item-img">
@@ -2621,7 +2659,7 @@
                                     <div class="floor-price">￥5.9</div>
                                 </div>
                         </a>
-                        <a href="" class="grid">
+                        <a href="" class="grid box2">
                                 <div class="floor-item-content-wrap">
                                     <div class="floor-item-tag"></div>
                                     <img src="static/img/floor1/floor10.jpg" alt="" class="floor-item-img">
@@ -2700,7 +2738,7 @@
                                 <div class="floor-price">￥59</div>
                             </div>
                         </a>
-                        <a href="" class="grid">
+                        <a href="" class="grid box2">
                             <div class="floor-item-content-wrap">
                                 <div class="floor-item-tag"></div>
                                 <img src="static/img/floor2/floor5.jpg" alt="" class="floor-item-img">
@@ -2732,7 +2770,7 @@
                                 <div class="floor-price">￥39</div>
                             </div>
                         </a>
-                        <a href="" class="grid">
+                        <a href="" class="grid box2">
                             <div class="floor-item-content-wrap">
                                 <div class="floor-item-tag"></div>
                                 <img src="static/img/floor2/floor9.jpg" alt="" class="floor-item-img">
@@ -2808,7 +2846,7 @@
                                 <div class="floor-price">￥148</div>
                             </div>
                         </a>
-                        <a href="" class="grid">
+                        <a href="" class="grid box2">
                             <div class="floor-item-content-wrap">
                                 <div class="floor-item-tag"></div>
                                 <img src="static/img/floor3/floor5.jpg" alt="" class="floor-item-img">
@@ -2840,7 +2878,7 @@
                                 <div class="floor-price">￥108</div>
                             </div>
                         </a>
-                        <a href="" class="grid">
+                        <a href="" class="grid box2">
                             <div class="floor-item-content-wrap">
                                 <div class="floor-item-tag"></div>
                                 <img src="static/img/floor3/floor9.jpg" alt="" class="floor-item-img">
@@ -2915,7 +2953,7 @@
                                 <div class="floor-price">￥99</div>
                             </div>
                         </a>
-                        <a href="" class="grid">
+                        <a href="" class="grid box2">
                             <div class="floor-item-content-wrap">
                                 <div class="floor-item-tag"></div>
                                 <img src="static/img/floor4/floor5.jpg" alt="" class="floor-item-img">
@@ -2947,7 +2985,7 @@
                                 <div class="floor-price">￥249</div>
                             </div>
                         </a>
-                        <a href="" class="grid">
+                        <a href="" class="grid box2">
                             <div class="floor-item-content-wrap">
                                 <div class="floor-item-tag"></div>
                                 <img src="static/img/floor4/floor9.jpg" alt="" class="floor-item-img">
@@ -3027,7 +3065,7 @@
                                 <div class="floor-price">￥125</div>
                             </div>
                         </a>
-                        <a href="" class="grid">
+                        <a href="" class="grid box2">
                             <div class="floor-item-content-wrap">
                                 <div class="floor-item-tag"></div>
                                 <img src="static/img/floor5/floor5.jpg" alt="" class="floor-item-img">
@@ -3059,7 +3097,7 @@
                                 <div class="floor-price">￥19.9</div>
                             </div>
                         </a>
-                        <a href="" class="grid">
+                        <a href="" class="grid box2">
                             <div class="floor-item-content-wrap">
                                 <div class="floor-item-tag"></div>
                                 <img src="static/img/floor5/floor9.jpg" alt="" class="floor-item-img">
@@ -3134,7 +3172,7 @@
                                 <div class="floor-price">￥50</div>
                             </div>
                         </a>
-                        <a href="" class="grid">
+                        <a href="" class="grid box2">
                             <div class="floor-item-content-wrap">
                                 <div class="floor-item-tag"></div>
                                 <img src="static/img/floor6/floor5.jpg" alt="" class="floor-item-img">
@@ -3166,7 +3204,7 @@
                                 <div class="floor-price">￥99</div>
                             </div>
                         </a>
-                        <a href="" class="grid">
+                        <a href="" class="grid box2">
                             <div class="floor-item-content-wrap">
                                 <div class="floor-item-tag"></div>
                                 <img src="static/img/floor6/floor9.jpg" alt="" class="floor-item-img">
@@ -3241,7 +3279,7 @@
                                 <div class="floor-price">￥70</div>
                             </div>
                         </a>
-                        <a href="" class="grid">
+                        <a href="" class="grid box2">
                             <div class="floor-item-content-wrap">
                                 <div class="floor-item-tag"></div>
                                 <img src="static/img/floor7/floor5.jpg" alt="" class="floor-item-img">
@@ -3273,7 +3311,7 @@
                                 <div class="floor-price">￥99</div>
                             </div>
                         </a>
-                        <a href="" class="grid">
+                        <a href="" class="grid box2">
                             <div class="floor-item-content-wrap">
                                 <div class="floor-item-tag"></div>
                                 <img src="static/img/floor7/floor9.jpg" alt="" class="floor-item-img">
